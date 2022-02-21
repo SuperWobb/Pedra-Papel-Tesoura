@@ -4,10 +4,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <script src="script.js"></script>
-    <title>Pedra papel tesoura</title>
+    <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <title>Pedra Papel Tesoura</title>
 </head>
 <body>
+    <div id="title"><h1>Pedra Papel Tesoura</h1></div>
+    <h2 id="disputa">Escolha a sua arma:</h2>
+    <h3 id="confronto">O primeiro a 5 pontos vence!</h3>
+    <div id="resultados">
+        <ul>
+            <li id="playerSel">❔</li>
+            <li id="player">Você: 0</li>
+        </ul>
+        <ul>
+            <li id="cpuSel">❔</li>
+            <li id="cpu">Computador: 0</li>
+        </ul>
+    </div>
+    <div id="escolhas">
+        <button id="pedra">✊</button>
+        <button id="papel">✋</button>
+        <button id="tesoura">✌</button>
+    </div>
+    <div id="rodape"><p>Direitos reservados: Alex Gostosão</p></div>
+    <div id="fundoEndgame">
+    <div id="endgame">
+        <ul>
+            <li id="msgEnd">mensagem de fim de jogo</li>
+            <li><button id="playAgain"> Jogar novamente</button></li>
+        </ul>
+    </div>
     
+    </div>
 </body>
 </html>
